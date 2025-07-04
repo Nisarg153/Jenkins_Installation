@@ -34,6 +34,7 @@ sudo apt install maven -y
 
 you can type mvn --version
 you should see the below output.
+
 ![image](https://github.com/user-attachments/assets/b0b6cafc-0cd5-4de9-9e72-1def6f780a3c)
 
  
