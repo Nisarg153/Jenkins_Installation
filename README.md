@@ -1,4 +1,4 @@
-PART A:  JENKIN CONFIGURATION
+# PART A:  JENKIN CONFIGURATION
 
 Pre-requisites:
 •	EC2 instance is up and running
@@ -98,7 +98,7 @@ Click on Save and Finish. Click on start using Jenkins. Now you should see a scr
 
 
 
-PART 2:MASTER -SLAVE CONFIGURATION
+# PART 2:MASTER -SLAVE CONFIGURATION
 
 ![image](https://github.com/user-attachments/assets/eaea5739-842d-4d85-af26-2664bab92a65)
  
