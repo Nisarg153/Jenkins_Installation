@@ -45,6 +45,8 @@ Jenkins Setup
 Add Repository key to the system
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+
 ![image](https://github.com/user-attachments/assets/48d7ae11-06db-4e88-852f-bc58d35f616c)
  
 
@@ -52,16 +54,22 @@ Append debian package repo address to the system
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+
 ![image](https://github.com/user-attachments/assets/ce5fbf23-20dd-4f1b-9062-8bfb7b236f7b)
  
 
 
 Update Ubuntu package
 sudo apt update
+
+
 ![image](https://github.com/user-attachments/assets/8407111e-714f-40c5-bdab-5c1b69e4d084)
 
 Install Jenkins
 sudo apt install jenkins -y
+
+
 ![image](https://github.com/user-attachments/assets/eb579ea6-b2d0-4f6c-b242-bb0b3f4a8b79)
 
 
@@ -78,18 +86,23 @@ http://EC2_public_dns_name:8080
 
 Unlock Jenkins
 You may get screen, enter the below command in Git bash( Ubuntu console)
+
 ![image](https://github.com/user-attachments/assets/02d90f84-69e4-46dc-9420-3488e51c60de)
+
 Get the initial password from the below file
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
 ![image](https://github.com/user-attachments/assets/6c54f0c2-7092-4d92-a813-f4d93ecf8faf)
 
 
 Copy the password and paste in the browser.
 Then click on install suggested plug-ins. 
+
 ![image](https://github.com/user-attachments/assets/a604303c-9a58-46e2-9894-31637a032e10)
  
 Also create user name and password.
 enter everything as admin. at least user name as admin password as admin
+
 ![image](https://github.com/user-attachments/assets/77c35ebe-e4b2-48ae-a3cc-0e127eb7bc39)
 
 Click on Save and Finish. Click on start using Jenkins. Now you should see a screen like below:
